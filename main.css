@@ -1,0 +1,55 @@
+.main-image-section {
+    display: flex;
+}
+
+.main-image{
+    width: 100%;
+    max-width: 200px;
+}
+.mainText {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.articleTitle {
+    text-align: center;
+    /* justify-content: center;
+    margin: auto; */
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: minmax(1.2rem, 1fr) minmax(1.2rem, 1fr) minmax(1.2rem, 1fr);
+    gap:.5rem;
+}
+
+.article {
+    background: linear-gradient(red, blue);
+    text-align: center;
+    border-radius: 10%;
+}
+
+.article-image {
+    max-width: 10rem;
+    max-height: 10rem;
+    text-align: center;
+    border-radius: 50%;
+}
+
+@media  screen and (max-width: 500px){
+    .article-image {
+        max-width: 5rem;
+        max-height: 5rem;
+    }
+}
+
+.final_image {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.imageofTrees{
+    width: 100%;
+    max-width: 400px;
+}
